@@ -65,7 +65,7 @@ export default function Header() {
           <Link href="/contact" className="block">Contact</Link>
           <Link href="/sell" className="block">Sell</Link>
           <Link href="/buy" className="block">Buy</Link>
-          <Link href="/account" className="block">Account</Link>
+          <Link href="/login" className="block">login</Link>
         </nav>
       )}
     </header>
