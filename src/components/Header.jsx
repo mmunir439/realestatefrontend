@@ -16,7 +16,6 @@ export default function Header() {
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6">
           <Link href="/">Home</Link>
-          <Link href="/about">Projects</Link>
           <Link href="/contact">Buy/Sell plots</Link>
           <Link href="/team">Sevices</Link>
           {/* <Link href="/blog">Blog</Link> */}

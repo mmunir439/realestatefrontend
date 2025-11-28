@@ -20,6 +20,7 @@ const FooterLikeComponent = () => {
   });
 
   const [successMsg, setSuccessMsg] = useState("");
+  const [loading, setLoading] = useState(false); // <-- New loading state
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -27,18 +28,20 @@ const FooterLikeComponent = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true); // Start loading
 
     try {
       const res = await axios.post("http://localhost:5000/callback/register", form);
 
       setSuccessMsg("Your request has been submitted successfully!");
-
       setForm({ email: "", phone: "", username: "" });
 
       setTimeout(() => setSuccessMsg(""), 3000);
     } catch (err) {
       console.log(err);
       setSuccessMsg("Failed! Try again.");
+    } finally {
+      setLoading(false); // Stop loading
     }
   };
 
@@ -50,22 +53,20 @@ const FooterLikeComponent = () => {
     "About Us",
     "Contact Us",
   ];
+  const routes = ["/", "/ourprojects", "/buysellplots", "/services", "/about", "/contact"];
 
   const projectItems = [
     "Faisal Hills Islamabad",
-    "Faisal Residencia",
-    "Faisal Jewel",
-    "Faisal Margalla City",
-    "Multi Gardens Phase 2",
+    "centorous Mall",
+    "D17 islamabad",
+    "g13 Islamabad",
+    "J7 Plaza",
     "Faisal Town Phase 2",
   ];
 
   return (
     <div className="font-sans bg-green-100 text-gray-800">
-      {/* Top Bar */}
-      <div className="text-center p-2 text-sm text-green-900 tracking-widest font-semibold">
-        FOR IIUI BSCS F22 INTRODUCTION TO MANAGEMENT QUERY PLEASE VISIT HERE
-      </div>
+     
 
       {/* Feature Bar */}
       <div className="flex justify-around items-center bg-green-600 p-5 text-white text-center flex-wrap">
@@ -86,14 +87,15 @@ const FooterLikeComponent = () => {
       </div>
 
       <div className="flex justify-between p-10 max-w-6xl mx-auto flex-wrap">
-        
         {/* Main Menu */}
         <div className="min-w-[200px] p-4 flex-1">
           <div className="text-xl font-bold text-green-700 mb-3">Main Menu</div>
           <ul>
-            {menuItems.map((item) => (
+            {menuItems.map((item, index) => (
               <li key={item} className="mb-2 text-base">
-                <a href="#" className="text-gray-800">• {item}</a>
+                <a href={routes[index]} className="text-gray-800">
+                  • {item}
+                </a>
               </li>
             ))}
           </ul>
@@ -103,9 +105,11 @@ const FooterLikeComponent = () => {
         <div className="min-w-[200px] p-4 flex-1">
           <div className="text-xl font-bold text-green-700 mb-3">Projects</div>
           <ul>
-            {projectItems.map((item) => (
+            {projectItems.map((item, index) => (
               <li key={item} className="mb-2 text-base">
-                <a href="#" className="text-gray-800">• {item}</a>
+                <a href={routes[index]} className="text-gray-800">
+                  • {item}
+                </a>
               </li>
             ))}
           </ul>
@@ -119,13 +123,13 @@ const FooterLikeComponent = () => {
 
           <div className="text-left space-y-2">
             <div className="flex gap-2 items-center text-base">
-              <FaPhoneAlt /> 03218661039
+              <FaPhoneAlt /> 03195803212
             </div>
             <div className="flex gap-2 items-center text-base">
-              <FaPhoneAlt /> 03008656727
+              <FaPhoneAlt /> 03417123536
             </div>
             <div className="flex gap-2 items-center text-base">
-              <FaEnvelope /> info@faisalhills.com.pk
+              <FaEnvelope /> munir.webdev@gmail.com
             </div>
           </div>
         </div>
@@ -173,8 +177,9 @@ const FooterLikeComponent = () => {
             <button
               type="submit"
               className="bg-gray-700 text-white px-5 py-2 rounded-md"
+              disabled={loading} // disable button while loading
             >
-              Request a Call Back
+              {loading ? "Requesting..." : "Request a Call Back"} {/* change text */}
             </button>
           </form>
         </div>
