@@ -16,11 +16,13 @@ export default function Header() {
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6">
           <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/sell">Sell</Link>
-          <Link href="/buy">Buy</Link>
-          <Link href="/login">login</Link>
+          <Link href="/about">Projects</Link>
+          <Link href="/contact">Buy/Sell plots</Link>
+          <Link href="/team">Sevices</Link>
+          {/* <Link href="/blog">Blog</Link> */}
+          <Link href="/about">About Us</Link>
+          <Link href="/contact">Contact Us</Link>
+          <Link href="/login">Login</Link>
         </nav>
 
         {/* Mobile Hamburger */}
