@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import axios from "axios";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 export default function Register() {
   const [preexitenceemail,setpreexitenceemail]=useState("");
@@ -253,6 +254,9 @@ const [preexitencephone,setpreexitencephone]=useState("");
               {loading ? "Registering..." : "Join Us"}
             </button>
           </div>
+          <Link href="/login" className="text-center block mt-4 ">
+            Already have an account? <span className="text-sm text-red-600  hover:underline">Login</span>
+          </Link>
         </form>
       </div>
     </div>
