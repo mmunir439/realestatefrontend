@@ -10,7 +10,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-4 text-gray-800">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold">
-          intRealEstate
+          JHillsProperty
         </Link>
 
         {/* Desktop Menu */}
@@ -20,7 +20,7 @@ export default function Header() {
           <Link href="/contact">Contact</Link>
           <Link href="/sell">Sell</Link>
           <Link href="/buy">Buy</Link>
-          <Link href="/account">Account</Link>
+          <Link href="/login">login</Link>
         </nav>
 
         {/* Mobile Hamburger */}
