@@ -6,9 +6,12 @@ import { IoIosPeople } from "react-icons/io";
 import { LiaAwardSolid } from "react-icons/lia";
 import { RiTeamFill } from "react-icons/ri";
 import Vision from "@/components/Vision";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 export default function Aboutpage() {
   return (
     <div className="bg-white min-h-screen">
+      <Header />
       {/* Top banner image */}
       <div>
         <img className="w-full h-auto" src="/about.png" alt="About banner" />
@@ -98,6 +101,7 @@ export default function Aboutpage() {
   </div>
 </div>
 <Vision/>
+<Footer />
     </div>
   );
 }
