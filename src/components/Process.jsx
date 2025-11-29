@@ -114,7 +114,7 @@ export default function ProcessSection() {
     {/* Left: Image */}
     <div>
       <img
-        src="/me.jpg"
+        src="/majeed.png"
         alt="Rana Waseem"
         className="w-full h-auto object-cover rounded-md shadow-lg"
       />
