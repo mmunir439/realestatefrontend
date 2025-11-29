@@ -58,7 +58,7 @@ const projects = [
 
 export default function OurProjectsPage() {
   return (
-    <section className="bg-[#f8fafc] py-16 min-h-screen">
+    <>
       <Header />
     <section className="bg-[#f8fafc] py-16 min-h-screen">
       <div className="max-w-4xl mx-auto text-center px-4">
@@ -107,6 +107,6 @@ export default function OurProjectsPage() {
 </div>
     </section>
     <Footer />
-    </section>
+    </>
   );
 }
