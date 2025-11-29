@@ -60,6 +60,7 @@ export default function OurProjectsPage() {
   return (
     <section className="bg-[#f8fafc] py-16 min-h-screen">
       <Header />
+    <section className="bg-[#f8fafc] py-16 min-h-screen">
       <div className="max-w-4xl mx-auto text-center px-4">
         <p className="text-lg font-bold tracking-[0.2em] text-amber-500 uppercase">
           Our Projects
@@ -104,8 +105,8 @@ export default function OurProjectsPage() {
     </Link>
   ))}
 </div>
-
-
+    </section>
+    <Footer />
     </section>
   );
 }
