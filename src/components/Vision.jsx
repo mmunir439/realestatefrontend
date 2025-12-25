@@ -42,7 +42,7 @@ export default function Vision() {
             </h3>
             <p className="mt-3 text-sm text-gray-700 leading-relaxed">
               Munir Hills offers premium residential and commercial plots in
-              ideal locations. Our experts are here to guide you in finding the
+              ideal locations. Our experts are  here to guide you in finding the
               perfect investment that maximizes returns and ensures long-term
               value.
             </p>
