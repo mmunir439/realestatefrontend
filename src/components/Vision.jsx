@@ -20,7 +20,7 @@ export default function Vision() {
 
         <p className="mt-4 text-sm md:text-base text-gray-700 leading-relaxed">
           By choosing Munirhills.com.pk and working with Rana Waseem, you&apos;re
-          partnering with a reliable source that prioritizes your interests and
+          partnering with a reliable source that prioritizes your choice and
           delivers exceptional service. Your journey towards owning a premium
           property is guided by honesty, reliability, and a deep understanding of
           the real estate market. Reach out today to experience hassle-free
