@@ -23,7 +23,7 @@ export default function Aboutpage() {
         <div>
           <h1 className="text-orange-500 text-2xl md:text-3xl font-semibold flex items-center gap-2 mb-3">
             <TfiLayoutLineSolid />
-            Javid Hills Exclusive
+            Munir Hills Exclusive
             <TfiLayoutLineSolid />
           </h1>
 

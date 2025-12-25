@@ -9,7 +9,7 @@ export default function HeroSection() {
         <div className="w-full">
           <img
             src="welcome.png" // your image path
-            alt="Faisal Hills"
+            alt="Munir Hills"
             className="w-full h-56 sm:h-72 md:h-80 lg:h-96 xl:h-[500px] object-cover rounded-xl shadow-md"
           />
         </div>
@@ -17,31 +17,31 @@ export default function HeroSection() {
         {/* RIGHT: Text */}
         <div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
-            Welcome To Faisal Hills
+            Welcome To Munir Hills
           </h1>
 
           <p className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
             your trusted gateway to premium real estate projects, including the
-            renowned Faisal Hills Islamabad. As the leading platform for real
-            estate opportunities, we offer an extensive selection of Faisal
+            renowned Munir Hills Islamabad. As the leading platform for real
+            estate opportunities, we offer an extensive selection of Munir
             Hills plots for sale that cater to both investors and homebuyers.
-            Explore prime locations such as Faisal Hills D Block, known for its
+            Explore prime locations such as Munir Hills D Block, known for its
             modern infrastructure and scenic surroundings. With seamless
-            connectivity to key areas like Faisal Town, Faisal Margalla City,
-            and Faisal Town Phase 2, we ensure a lifestyle of convenience,
+            connectivity to key areas like Munir Town, Munir Margalla City,
+            and Munir Town Phase 2, we ensure a lifestyle of convenience,
             comfort, and unparalleled growth potential.
           </p>
 
           <p className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
-            we also feature other esteemed developments such as Faisal
+            we also feature other esteemed developments such as Munir
             Residencia, Multi Garden, and Multi Garden Phase 2, providing
             diverse options for those seeking quality living spaces or lucrative
-            investment opportunities. Discover the elegance of Faisal Jewel, a
+            investment opportunities. Discover the elegance of Munir Jewel, a
             project designed to deliver sophistication and contemporary living.
             With a focus on affordability, sustainability, and innovation,
-            Faisalhills.com.pk remains your trusted partner in navigating
+            Munirhills.com.pk remains your trusted partner in navigating
             Islamabad’s thriving real estate market. Visit us today to explore
-            the best of Faisal Hills and beyond!
+            the best of Munir Hills and beyond!
           </p>
         </div>
       </div>

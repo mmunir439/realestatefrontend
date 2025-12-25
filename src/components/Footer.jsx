@@ -118,7 +118,7 @@ const FooterLikeComponent = () => {
         {/* Center Logo */}
         <div className="flex-1 text-center flex flex-col items-center p-4">
           <div className="text-4xl font-bold text-orange-500 mb-5 leading-tight drop-shadow">
-            JAVID HILLS <br /> EXCLUSIVE
+            Munir HILLS <br /> EXCLUSIVE
           </div>
 
           <div className="text-left space-y-2">

@@ -11,7 +11,7 @@ export default function Vision() {
       {/* Top heading + description */}
       <div className="max-w-4xl mx-auto text-center px-4">
         <p className="text-sm font-bold tracking-[0.25em] text-amber-500 uppercase">
-          Why Choose Faisal Hills?
+          Why Choose Munir Hills?
         </p>
 
         <h2 className="mt-2 text-3xl md:text-4xl font-bold text-gray-900">
@@ -19,7 +19,7 @@ export default function Vision() {
         </h2>
 
         <p className="mt-4 text-sm md:text-base text-gray-700 leading-relaxed">
-          By choosing Faisalhills.com.pk and working with Rana Waseem, you&apos;re
+          By choosing Munirhills.com.pk and working with Rana Waseem, you&apos;re
           partnering with a reliable source that prioritizes your interests and
           delivers exceptional service. Your journey towards owning a premium
           property is guided by honesty, reliability, and a deep understanding of
@@ -41,7 +41,7 @@ export default function Vision() {
               1. Your Gateway To Prime Investments!
             </h3>
             <p className="mt-3 text-sm text-gray-700 leading-relaxed">
-              Faisal Hills offers premium residential and commercial plots in
+              Munir Hills offers premium residential and commercial plots in
               ideal locations. Our experts are here to guide you in finding the
               perfect investment that maximizes returns and ensures long-term
               value.
@@ -58,7 +58,7 @@ export default function Vision() {
             </h3>
             <p className="mt-3 text-sm leading-relaxed">
               Our dedicated team simplifies the process of acquiring property in
-              Faisal Hills. From choosing the right project to managing
+              Munir Hills. From choosing the right project to managing
               documentation, we provide end-to-end support for a seamless
               experience.
             </p>

@@ -19,10 +19,10 @@ const projects = [
   {
     id: 2,
     img: "/faisal.png",
-    title: "Porium Mall faisal hills",
-    location: "Main faisal hills",
+    title: "Porium Mall Munir Hills",
+    location: "Main Munir Hills Boulevard",
     description:
-      "A beautifully designed fountain at the center of Faisal Hills, perfect for relaxation and social gatherings.",
+      "A beautifully designed fountain at the center of Munir Hills, perfect for relaxation and social gatherings.",
   },
   {
     id: 3,
@@ -43,8 +43,8 @@ const projects = [
   {
     id: 5,
     img: "/hills.png",
-    title: "Faisal Hills Mall",
-    location: "Faisal Hills Main Boulevard",
+    title: "Munir Hills Mall",
+    location: "Munir Hills Main Boulevard",
     description:
       "Retail-focused project with wide shopfronts and high customer footfall.",
   },

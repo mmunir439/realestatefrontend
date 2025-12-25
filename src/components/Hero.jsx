@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Hero() {
   const topontext = {
-    heading: "Find Your Dream Property with Faisal Hills Exclusive",
+    heading: "Find Your Dream Property with Munir Hills Exclusive",
     subheading:
       "Trusted by thousands for creating value-driven real estate journeys",
   };

@@ -10,7 +10,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-4 text-gray-800">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold">
-          JHillsProperty
+          Munir Smart Properties
         </Link>
 
         {/* Desktop Menu */}
